@@ -44,30 +44,3 @@ autoparts-dashboard/
 ├─ public/
 ├─ package.json
 └─ tailwind.config.js
-
-💻 INSTALLATION
-
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/autoparts-dashboard.git
-
-# Go into project folder
-cd autoparts-dashboard
-
-# Install dependencies
-npm install
-
-# Run the app locally
-npm run dev
-
-⚡ TECH STACK
-⚡ Tech Stack
-
-React 18
-
-Tailwind CSS 3
-
-Recharts (for charts)
-
-React Router DOM (for navigation)
-
-(Firebase coming soon for persistent backend!)
