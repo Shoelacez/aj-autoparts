@@ -1,16 +1,73 @@
-# React + Vite
+# 🛠️ AutoParts Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.3-teal?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Currently, two official plugins are available:
+> A sleek inventory, sales, and expenses management dashboard for your autoparts business. Keep your stock, sales, and cashflow under control — all in one place.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Demo:** [Your Vercel Link Here](https://your-vercel-app.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏗️ Features
 
-## Expanding the ESLint configuration
+- **Inventory Management**
+  - Add, edit, and delete products
+  - Search by OEM, Product, or Brand
+  - Low Stock warnings
+- **Sales Tracking**
+  - Record sales with product, quantity, and total amount
+  - Searchable and editable sales records
+  - Sales over time visualization
+- **Expenses Tracking**
+  - Record expenses with categories
+  - Track totals by category
+- **Dashboard**
+  - Total Products, Low Stock Items, Sales, Expenses (clickable cards!)
+  - Low Stock Bar Chart in red
+  - Sales vs Expenses Line Chart (profit visualization)
+  - Recent products table
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```text
+autoparts-dashboard/
+├─ src/
+│  ├─ components/      # Navbar, forms, modals
+│  ├─ data/            # products.js, sales.js, expenses.js
+│  ├─ pages/           # Dashboard.jsx, Inventory.jsx, Sales.jsx, Expenses.jsx
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ public/
+├─ package.json
+└─ tailwind.config.js
+
+💻 INSTALLATION
+
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/autoparts-dashboard.git
+
+# Go into project folder
+cd autoparts-dashboard
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm run dev
+
+⚡ TECH STACK
+⚡ Tech Stack
+
+React 18
+
+Tailwind CSS 3
+
+Recharts (for charts)
+
+React Router DOM (for navigation)
+
+(Firebase coming soon for persistent backend!)
