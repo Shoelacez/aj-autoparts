@@ -6,7 +6,7 @@
 
 > A sleek inventory, sales, and expenses management dashboard for your autoparts business. Keep your stock, sales, and cashflow under control — all in one place.  
 
-**Live Demo:** [Your Vercel Link Here](https://your-vercel-app.vercel.app)
+**Live Demo:** [Your Vercel Link Here](https://aj-autoparts.vercel.app/)
 
 ---
 
